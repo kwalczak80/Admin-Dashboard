@@ -148,7 +148,11 @@
                       ></a>
                     </li>
                     <li class="nav-item ml-md-auto">
-                      <a href="#" class="nav-link"
+                      <a
+                        href="#"
+                        class="nav-link"
+                        data-toggle="modal"
+                        data-target="#sign-out"
                         ><i class="fas fa-sign-out-alt text-danger fa-lg"></i
                       ></a>
                     </li>
@@ -162,6 +166,23 @@
       </div>
     </nav>
     <!-- End Navbar -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="sign-out">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Want to leave?</h4>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">Press logout to leave</div>
+          <div class="modal-footer">
+            <button class="btn btn-success" data-dismiss="modal">Stay Here</button>
+            <button class="btn btn-danger" data-dismiss="modal">Logout</button>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal -->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
