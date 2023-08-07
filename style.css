@@ -105,3 +105,11 @@ body {
   transform: translate(-1px);
 }
 /* End of Cards */
+
+/* Task list */
+
+.task-border {
+  border-left: 3px solid #f66436;
+}
+
+/* End of task list */
